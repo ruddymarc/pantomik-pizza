@@ -28,3 +28,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Base tests
         run: python tests.py
+      - name: Program running
+        run: python pizzeria.py
